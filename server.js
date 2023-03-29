@@ -43,6 +43,7 @@ app.get("/ex2", (req, res) => {
     });
 });
 
+//Ex3
 app.get("/ex3", (req, res) => {
   const path_origen = "C:\\Users\\alexb\\OneDrive\\Escritorio\\UF1_ExamenAaD\\Documents\\FitxerOrigen.txt";
   const path_desti = "C:\\Users\\alexb\\OneDrive\\Escritorio\\UF1_ExamenAaD\\Documents\\Docs1\\FitxerDesti.txt";
@@ -57,7 +58,7 @@ app.get("/ex3", (req, res) => {
   }
   });
 
-
+//Ex4
 app.get("/ex4", (req, res) => {
   const path_carpeta = "C:\\Users\\alexb\\OneDrive\\Escritorio\\UF1_ExamenAaD";
 
