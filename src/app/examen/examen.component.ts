@@ -16,6 +16,12 @@ export class ExamenComponent {
     //Exercici_2
     //this.http.get<any>("http://localhost:3080/ex2", {}).subscribe();
 
+    //Exercici_3
+    //this.http.get<any>("http://localhost:3080/ex3", {}).subscribe();
+
+    //Exercici_4
+    this.http.get<any>("http://localhost:3080/ex4", {}).subscribe();
+
   }
 
 
